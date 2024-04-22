@@ -8,7 +8,7 @@ import io.restassured.response.Response;
 import api.payload.*;
 
 public class UserEndPointsFromProperties {
-	
+	//username verify
 	static ResourceBundle getURL(){
 		ResourceBundle routes=ResourceBundle.getBundle("routes");
 		return routes;
